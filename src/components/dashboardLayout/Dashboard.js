@@ -6,6 +6,7 @@ import {HiOutlineDocumentReport} from 'react-icons/hi';
 import {FcCalendar} from 'react-icons/fc';
 import {TiDocumentText} from 'react-icons/ti';
 import {Link, useLocation} from 'react-router-dom';
+import logo from './hr.svg';
 
 const navItems = [
     {
@@ -62,9 +63,9 @@ const DashboardLayout = ( {children} ) =>{
                         ))
                     }
                 </div>
-                <div className="image-container">
-                    <img src="https://image.freepik.com/free-vector/recruiters-managers-searching-candidate-huge-cv-position-recruitment-agency-human-resources-service-recruitment-network-concept-illustration_335657-2059.jpg" height="300px" width="200px" alt=""/>
-                </div>
+                {/* <div className="image-container">
+                    <img src= {logo} height="300px" width="250px" alt="image1" />
+                </div> */}
             </nav>
             <div className="main-container">
                 {children}
