@@ -6,7 +6,7 @@ import {HiOutlineDocumentReport} from 'react-icons/hi';
 import {FcCalendar} from 'react-icons/fc';
 import {TiDocumentText} from 'react-icons/ti';
 import {Link, useLocation} from 'react-router-dom';
-import logo from './hr.svg';
+// import logo from './hr.svg';
 
 const navItems = [
     {
